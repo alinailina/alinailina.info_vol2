@@ -183,32 +183,7 @@
         }
 
         input[type="submit"] {
-          width: 225px;
-          @include text;
-          padding: 12px 0;
-          border: 1px solid $black;
-          font-family: "Roboto Mono", monospace;
-          font-weight: 400;
-          text-transform: uppercase;
-
-          @include desktop {
-            width: 15vw;
-            min-width: 250px;
-          }
-
-          border-radius: 2px;
-          color: $black;
-          background-color: $gray;
-          cursor: pointer;
-          outline: none;
-          -webkit-appearance: none;
-
-          &:hover,
-          &:active {
-            border: 1px solid $black;
-            background-color: $yellow;
-            outline: none;
-          }
+          @include button;
         }
       }
 

@@ -9,6 +9,7 @@ const Card4 = () => {
     <div className={`${css.card} ${css.card4}`}>
       <div> 
       <Link to='faqs'>FAQs</Link>
+      <p>I'm glad you asked ...</p>
       </div>
     </div>
   );
