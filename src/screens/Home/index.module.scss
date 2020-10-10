@@ -1,0 +1,304 @@
+@import "../../index.scss";
+
+.card {
+}
+
+.card1 {
+  height: 100vh;
+  @include square-bg;
+
+  > div {
+    height: 100vh;
+    background-image: url("../../assets/card1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+    > div {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 100px auto 100px;
+      grid-template-rows: 30% auto 30%;
+      @include phone {
+        grid-template-columns: 50px auto 50px;
+      }
+      @include desktop {
+        grid-template-columns: 10vw auto 10vw;
+      }
+
+      grid-template-areas:
+        ". . ."
+        "left . right"
+        ". middle .";
+    }
+
+    // Web developer
+    p:first-of-type {
+      grid-area: left;
+      writing-mode: vertical-rl;
+      transform: rotate(-180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include text;
+      font-weight: 200;
+    }
+
+    // UI Imagineer
+    p:nth-of-type(2) {
+      grid-area: right;
+      writing-mode: vertical-rl;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include text;
+      font-weight: 200;
+    }
+
+    // Name + button
+    div {
+      grid-area: middle;
+      text-align: center;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      // Name
+      h1 {
+        font-weight: 300;
+
+        @include phone {
+          font-size: 2rem;
+        }
+
+        @include tablet {
+          font-size: 2.5rem;
+        }
+
+        @include desktop {
+          font-size: 3rem;
+        }
+
+        @media only screen and (min-width: 1800px) {
+          font-size: 3vw;
+        }
+        margin: 0;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+      }
+
+      button {
+        margin: 0 auto;
+        width: 225px;
+        padding: 10px 0;
+        border: 1px solid $black;
+        @media only screen and (min-width: 2400px) {
+          border: 2px solid $black;
+        }
+        border-radius: 2px;
+        @include text;
+        font-family: "Roboto Mono", monospace;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        @include desktop {
+          width: 15vw;
+          min-width: 250px;
+        }
+
+        background-color: $gray;
+        color: $black;
+        cursor: pointer;
+        -webkit-appearance: none;
+        outline: none;
+
+        &:hover,
+        &:active {
+          border: 1px solid $black;
+          background-color: $yellow;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.card2 {
+  //  @include square-bg;
+  border-top: 1px solid rgba(45, 45, 45, 0.5);
+  border-bottom: 1px solid rgba(45, 45, 45, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $gray;
+  > div {
+    @include container;
+    padding: 100px 0;
+    display: flex;
+    align-items: flex-start;
+
+    h3 {
+      margin-right: 10vw;
+    }
+
+    p {
+      @include text;
+      margin-bottom: 25px;
+      // max-width: 20em;
+    }
+    a {
+      @include text;
+      @include link;
+    }
+  }
+}
+
+.card3 {
+  height: 70vh;
+  background-image: url("../../assets/card3.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  button {
+    width: 225px;
+    padding: 10px 0;
+    border: 1px solid $black;
+    @media only screen and (min-width: 2400px) {
+      border: 2px solid $black;
+    }
+    border-radius: 2px;
+    @include text;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    @include desktop {
+      width: 15vw;
+      min-width: 250px;
+    }
+
+    background-color: $gray;
+    color: $black;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+    &:hover,
+    &:active {
+      border: 1px solid $black;
+      background-color: $yellow;
+      outline: none;
+    }
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Brand colors
+.colors {
+  @include square-bg;
+  border-top: 1px solid rgba(45, 45, 45, 0.5);
+  > div {
+    @include container;
+    padding: 100px 0 125px;
+
+    @include phone {
+      padding: 50px 0 100px;
+    }
+
+    @include desktop {
+      padding: 6vw 0 8vw;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      width: 25%;
+      background-color: $yellow;
+      padding: 10px;
+
+      p {
+        @include text;
+      }
+
+      &:first-of-type {
+        background-color: $black;
+        p {
+          color: white;
+        }
+      }
+      &:nth-of-type(2) {
+        background-color: $yellow;
+      }
+      &:nth-of-type(3) {
+        background-color: $gray;
+      }
+      &:nth-of-type(4) {
+        background-color: $pink;
+      }
+    }
+  }
+}
+
+// FAQs
+.card4 {
+  @include square-bg;
+  display: flex;
+  align-items: center;
+  > div {
+    @include container;
+    padding: 0 0 100px;
+    @include phone {
+      padding: 0 0 50px;
+    }
+
+    @include desktop {
+      padding: 0 0 6vw;
+    }
+
+    display: flex;
+    a {
+      @include large-text;
+      @include link;
+      span {
+        display: inline-block;
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        position: relative;
+
+        @include phone {
+          font-size: 0.6em;
+          top: -50px;
+        }
+        @include tablet {
+          font-size: 0.7em;
+          top: -60px;
+        }
+
+        @include desktop {
+          font-size: 0.6em;
+          top: -6vw;
+        }
+      }
+    }
+  }
+}
