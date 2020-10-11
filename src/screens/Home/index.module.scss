@@ -1,172 +1,117 @@
 @import "../../index.scss";
 
-.card {
-}
-
-.card1 {
-  height: 100vh;
+// Hero screen
+.hero {
   @include square-bg;
-
   > div {
-    height: 100vh;
-    background-image: url("../../assets/card1.svg");
+    background-image: url("../../assets/hero-bg.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    position: relative;
+    @include phone {
+      background-attachment: scroll;
+    }
 
     > div {
-      height: 100vh;
-      display: grid;
-      grid-template-columns: 100px auto 100px;
-      grid-template-rows: 30% auto 30%;
-      @include phone {
-        grid-template-columns: 50px auto 50px;
-      }
+      @include container;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 200px 0 100px;
       @include desktop {
-        grid-template-columns: 10vw auto 10vw;
+        padding: 15vw 0 10vw;
       }
 
-      grid-template-areas:
-        ". . ."
-        "left . right"
-        ". middle .";
-    }
+      // Text
+      > div:first-of-type {
+        width: 70%;
 
-    // Web developer
-    p:first-of-type {
-      grid-area: left;
-      writing-mode: vertical-rl;
-      transform: rotate(-180deg);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      @include text;
-      font-weight: 200;
-    }
+        // Hello
+        h2 {
+          @include large-text;
+          font-weight: 300;
+          margin-bottom: 25px;
 
-    // UI Imagineer
-    p:nth-of-type(2) {
-      grid-area: right;
-      writing-mode: vertical-rl;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      @include text;
-      font-weight: 200;
-    }
+          @include desktop {
+            margin-bottom: 2vw;
+          }
+        }
 
-    // Name + button
-    div {
-      grid-area: middle;
-      text-align: center;
+        // Intro
+        p {
+          @include text;
+          margin-bottom: 25px;
+          @include desktop {
+            margin-bottom: 2vw;
+          }
+        }
 
-      > div {
-        display: flex;
-        flex-direction: column;
+        // Links
+        > div {
+          display: flex;
+          align-items: center;
+
+          // Read full story
+          a:first-of-type {
+            @include small-text;
+            @include link;
+            margin-right: 2vw;
+          }
+
+          // Hire me
+          a:nth-of-type(2) {
+            @include button;
+            text-align: center;
+            text-decoration: none;
+          }
+        }
       }
 
-      // Name
-      h1 {
-        font-weight: 300;
-
-        @include phone {
-          font-size: 2rem;
+      // Image
+      > div:nth-of-type(2) {
+        width: 30%;
+        img {
+          width: 100%;
         }
-
-        @include tablet {
-          font-size: 2.5rem;
-        }
-
-        @include desktop {
-          font-size: 3rem;
-        }
-
-        @media only screen and (min-width: 1800px) {
-          font-size: 3vw;
-        }
-        margin: 0;
-        margin-bottom: 25px;
-        text-transform: uppercase;
+        display: none;
       }
 
-      button {
-        margin: 0 auto;
-        width: 225px;
-        padding: 10px 0;
-        border: 1px solid $black;
-        @media only screen and (min-width: 2400px) {
-          border: 2px solid $black;
+      @include phone {
+        // Text
+        > div:first-of-type {
+          width: 100%;
+          // Links
+          > div {
+            align-items: flex-start;
+            flex-direction: column;
+
+            // Read full story
+            a:first-of-type {
+              margin-bottom: 5vw;
+            }
+          }
         }
-        border-radius: 2px;
-        @include text;
-        font-family: "Roboto Mono", monospace;
-        font-weight: 400;
-        text-transform: uppercase;
-
-        @include desktop {
-          width: 15vw;
-          min-width: 250px;
-        }
-
-        background-color: $gray;
-        color: $black;
-        cursor: pointer;
-        -webkit-appearance: none;
-        outline: none;
-
-        &:hover,
-        &:active {
-          border: 1px solid $black;
-          background-color: $yellow;
-          outline: none;
+        // Image
+        > div:nth-of-type(2) {
+          display: none;
         }
       }
     }
   }
 }
 
-.card2 {
-  //  @include square-bg;
-  border-top: 1px solid rgba(45, 45, 45, 0.5);
-  border-bottom: 1px solid rgba(45, 45, 45, 0.5);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: $gray;
-  > div {
-    @include container;
-    padding: 100px 0;
-    display: flex;
-    align-items: flex-start;
-
-    h3 {
-      margin-right: 10vw;
-    }
-
-    p {
-      @include text;
-      margin-bottom: 25px;
-      // max-width: 20em;
-    }
-    a {
-      @include text;
-      @include link;
-    }
-  }
-}
-
-.card3 {
+// Graphic
+.myWorks {
   height: 70vh;
-  background-image: url("../../assets/card3.svg");
+  background-image: url("../../assets/david.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+
   @include phone {
     height: 50vh;
     background-attachment: scroll;
@@ -246,13 +191,14 @@
 }
 
 // FAQs
-.card4 {
+.faqs {
   @include square-bg;
   display: flex;
   align-items: center;
   > div {
     @include container;
     padding: 0 0 100px;
+
     @include phone {
       padding: 0 0 50px;
     }

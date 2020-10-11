@@ -14,7 +14,9 @@ const Item = ({ question, children }) => {
   }, [active]);
 
   useEffect(() => {
-    questionRef.current.style.backgroundColor = active ? "rgba(242, 242, 242, 0.5)" : "#f2f2f2";
+    questionRef.current.style.backgroundColor = active
+      ? "rgba(242, 242, 242, 0.5)"
+      : "white";
     questionRef.current.style.border = active ? "none" : "1px solid #2d2d2d";
   }, [active]);
 

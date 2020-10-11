@@ -24,12 +24,13 @@ const Navbar = () => {
       </div>
 
       <ul className={active ? "active" : ""}>
-      <NavLink
-          to="/" exact
+        <NavLink
+          to="/"
+          exact
           onClick={toggleActive}
           activeClassName="active-navlink"
         >
-         Home
+          Home
         </NavLink>
         <NavLink
           to="about"

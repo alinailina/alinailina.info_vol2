@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap");
+
 /* roboto-mono-200 - latin */
 @font-face {
   font-family: "Roboto Mono";
@@ -265,7 +267,7 @@ h3 {
     min-width: 250px;
   }
 
-  background-color: $gray;
+  background-color: $yellow;
   color: $black;
   cursor: pointer;
   -webkit-appearance: none;
@@ -274,17 +276,12 @@ h3 {
   &:hover,
   &:active {
     border: 1px solid $black;
-    background-color: $yellow;
+    background-color: $gray;
     outline: none;
   }
 
   @include phone {
     font-weight: 400;
-    background-color: $yellow;
-    &:active {
-      background-color: $gray;
-      outline: none;
-    }
   }
 }
 

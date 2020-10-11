@@ -9,7 +9,7 @@ import css from "./index.module.scss";
 const About = () => {
   return (
     <div className={css.container}>
-     <Header title="About" />
+      <Header title="About" />
       <section>
         <p>
           My name is Alina Ilina. I’m a Web Developer and UI Imagineer (a

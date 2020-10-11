@@ -1,23 +1,18 @@
 import React from "react";
 
 // Children
-import Card1 from "./Card1";
-import Card2 from "./Card2";
-import Card3 from "./Card3";
-import Card4 from "./Card4";
+import Hero from "./Hero";
+import MyWorks from "./MyWorks";
 import Colors from "./Colors";
-
-// Styles
-//import css from "./index.module.scss";
+import FAQs from "./FAQs";
 
 const Home = () => {
   return (
     <div>
-      <Card1 />
-      <Card2 />
-      <Card3 />
+      <Hero />
+      <MyWorks />
       <Colors />
-      <Card4 />
+      <FAQs />
     </div>
   );
 };
