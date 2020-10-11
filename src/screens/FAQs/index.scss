@@ -153,6 +153,9 @@
         textarea {
           @include text;
           padding: 10px 2px;
+          @media only screen and (min-width: 2400px) {
+            padding: 0.6vw;
+          }
           border: 1px solid $black;
           border-radius: 2px;
           font-family: "Roboto Mono", monospace;

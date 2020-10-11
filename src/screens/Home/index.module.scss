@@ -3,30 +3,27 @@
 // Hero screen
 .hero {
   @include square-bg;
+  border-bottom: 1px solid rgba(45, 45, 45, 0.5);
   > div {
-    background-image: url("../../assets/hero-bg.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    @include phone {
-      background-attachment: scroll;
-    }
-
     > div {
       @include container;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 200px 0 100px;
+      @include phone {
+        padding: 150px 0;
+      }
       @include desktop {
-        padding: 15vw 0 10vw;
+        padding: 13vw 0 10vw;
       }
 
       // Text
       > div:first-of-type {
         width: 70%;
+        @include tablet {
+          width: 80%;
+        }
 
         // Hello
         h2 {
@@ -55,7 +52,7 @@
 
           // Read full story
           a:first-of-type {
-            @include small-text;
+            @include text;
             @include link;
             margin-right: 2vw;
           }
@@ -89,7 +86,7 @@
 
             // Read full story
             a:first-of-type {
-              margin-bottom: 5vw;
+              margin-bottom: 35px;
             }
           }
         }
@@ -113,15 +110,19 @@
   position: relative;
 
   @include phone {
-    height: 50vh;
+    height: 40vh;
     background-attachment: scroll;
   }
+
   img {
     width: 100%;
   }
 
-  button {
+  a {
     @include button;
+    display: block;
+    text-align: center;
+    text-decoration: none;
   }
 
   display: flex;

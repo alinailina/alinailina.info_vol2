@@ -1,48 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="11135" height="6334" viewBox="0 0 11135 6334">
-  <g id="Group_173" data-name="Group 173" transform="translate(-7384 717)">
-    <rect id="Rectangle_60" data-name="Rectangle 60" width="11135" height="6334" transform="translate(7384 -717)" fill="none"/>
-    <path id="Path_352" data-name="Path 352" d="M0,200Z" transform="translate(13718 5097)"/>
-    <rect id="Rectangle_822" data-name="Rectangle 822" width="300" height="30" rx="15" transform="translate(18294.746 4465.303) rotate(-138)" fill="#fef000"/>
-    <rect id="Rectangle_826" data-name="Rectangle 826" width="300" height="30" rx="15" transform="translate(18348.746 3544.41) rotate(-138)" fill="#fef000"/>
-    <rect id="Rectangle_828" data-name="Rectangle 828" width="300" height="30" rx="15" transform="translate(18368.82 5347.529) rotate(138)" fill="#fef000"/>
-    <rect id="Rectangle_829" data-name="Rectangle 829" width="300" height="30" rx="15" transform="translate(18498.746 4969.269) rotate(-138)"/>
-    <rect id="Rectangle_765" data-name="Rectangle 765" width="300" height="30" rx="15" transform="translate(17533.57 3250.06) rotate(51)" fill="#fef000"/>
-    <rect id="Rectangle_766" data-name="Rectangle 766" width="300" height="30" rx="15" transform="translate(15178.221 5287.487) rotate(130)" fill="#fef000"/>
-    <rect id="Rectangle_767" data-name="Rectangle 767" width="300" height="30" rx="15" transform="matrix(0.017, -1, 1, 0.017, 14752.695, 5229.469)" fill="#fef000"/>
-    <rect id="Rectangle_768" data-name="Rectangle 768" width="300" height="30" rx="15" transform="matrix(0.985, 0.174, -0.174, 0.985, 15183.195, 4937.934)"/>
-    <rect id="Rectangle_769" data-name="Rectangle 769" width="300" height="30" rx="15" transform="translate(15541.662 4426.415) rotate(81)" fill="#fef000"/>
-    <rect id="Rectangle_770" data-name="Rectangle 770" width="300" height="30" rx="15" transform="matrix(-0.225, 0.974, -0.974, -0.225, 15842.67, 4813.971)"/>
-    <rect id="Rectangle_771" data-name="Rectangle 771" width="300" height="30" rx="15" transform="translate(16404.375 5582.556) rotate(-23)"/>
-    <rect id="Rectangle_772" data-name="Rectangle 772" width="300" height="30" rx="15" transform="translate(16527.48 4932.698) rotate(97)" fill="#fef000"/>
-    <rect id="Rectangle_773" data-name="Rectangle 773" width="300" height="30" rx="15" transform="translate(15853.711 5450.417) rotate(-152)" fill="#fef000"/>
-    <rect id="Rectangle_774" data-name="Rectangle 774" width="300" height="30" rx="15" transform="matrix(0.616, -0.788, 0.788, 0.616, 15800.143, 4424.137)"/>
-    <rect id="Rectangle_775" data-name="Rectangle 775" width="300" height="30" rx="15" transform="translate(16369.248 4584.952) rotate(157)" fill="#fef000"/>
-    <rect id="Rectangle_776" data-name="Rectangle 776" width="300" height="30" rx="15" transform="translate(16683.746 4362.107) rotate(-138)" fill="#fef000"/>
-    <rect id="Rectangle_777" data-name="Rectangle 777" width="300" height="30" rx="15" transform="translate(16642.516 4596.944) rotate(65)"/>
-    <rect id="Rectangle_778" data-name="Rectangle 778" width="300" height="30" rx="15" transform="matrix(-0.208, 0.978, -0.978, -0.208, 17015.172, 3817.583)" fill="#fef000"/>
-    <rect id="Rectangle_780" data-name="Rectangle 780" width="300" height="30" rx="15" transform="translate(15488.859 4051.2) rotate(8)" fill="#fef000"/>
-    <rect id="Rectangle_781" data-name="Rectangle 781" width="300" height="30" rx="15" transform="translate(14526.724 5425.524) rotate(159)"/>
-    <rect id="Rectangle_782" data-name="Rectangle 782" width="300" height="30" rx="15" transform="translate(16302.695 5106.097) rotate(-169)" fill="#fef000"/>
-    <rect id="Rectangle_783" data-name="Rectangle 783" width="300" height="30" rx="15" transform="matrix(-0.454, -0.891, 0.891, -0.454, 16250.047, 3965.056)" fill="#fef000"/>
-    <rect id="Rectangle_784" data-name="Rectangle 784" width="300" height="30" rx="15" transform="matrix(-0.978, 0.208, -0.208, -0.978, 16794.154, 3667.199)"/>
-    <rect id="Rectangle_785" data-name="Rectangle 785" width="300" height="30" rx="15" transform="matrix(-0.602, 0.799, -0.799, -0.602, 17466.564, 3426.438)" fill="#fef000"/>
-    <rect id="Rectangle_786" data-name="Rectangle 786" width="300" height="30" rx="15" transform="translate(17315.027 4631.69) rotate(-179)" fill="#fef000"/>
-    <rect id="Rectangle_787" data-name="Rectangle 787" width="300" height="30" rx="15" transform="matrix(-0.766, 0.643, -0.643, -0.766, 17404.861, 4104.048)"/>
-    <rect id="Rectangle_788" data-name="Rectangle 788" width="300" height="30" rx="15" transform="translate(17616.746 3854.146) rotate(178)"/>
-    <rect id="Rectangle_789" data-name="Rectangle 789" width="300" height="30" rx="15" transform="translate(17918.619 4134.875) rotate(-114)" fill="#fef000"/>
-    <rect id="Rectangle_790" data-name="Rectangle 790" width="300" height="30" rx="15" transform="matrix(-0.643, -0.766, 0.766, -0.643, 18386.242, 2842.705)"/>
-    <rect id="Rectangle_791" data-name="Rectangle 791" width="300" height="30" rx="15" transform="translate(17947.492 3274.345) rotate(-80)"/>
-    <rect id="Rectangle_792" data-name="Rectangle 792" width="300" height="30" rx="15" transform="translate(17737.145 2782.413) rotate(-83)" fill="#fef000"/>
-    <rect id="Rectangle_819" data-name="Rectangle 819" width="300" height="30" rx="15" transform="translate(17749.746 4538.093) rotate(-138)" fill="#fef000"/>
-    <rect id="Rectangle_820" data-name="Rectangle 820" width="300" height="30" rx="15" transform="translate(17185.582 5074.117) rotate(-49)"/>
-    <rect id="Rectangle_821" data-name="Rectangle 821" width="300" height="30" rx="15" transform="translate(17035.746 3427.817) rotate(-138)" fill="#fef000"/>
-    <rect id="Rectangle_823" data-name="Rectangle 823" width="300" height="30" rx="15" transform="translate(17035.746 5392.269) rotate(-138)" fill="#fef000"/>
-    <rect id="Rectangle_824" data-name="Rectangle 824" width="300" height="30" rx="15" transform="translate(17853.102 4778.746) rotate(-58)" fill="#fef000"/>
-    <rect id="Rectangle_825" data-name="Rectangle 825" width="300" height="30" rx="15" transform="translate(18089.746 5221.269) rotate(-138)"/>
-    <rect id="Rectangle_830" data-name="Rectangle 830" width="300" height="30" rx="15" transform="translate(17760.693 5367.098) rotate(-169)" fill="#fef000"/>
-    <rect id="Rectangle_831" data-name="Rectangle 831" width="300" height="30" rx="15" transform="matrix(-0.995, -0.105, 0.105, -0.995, 18094.922, 3659.575)" fill="#fef000"/>
-    <rect id="Rectangle_832" data-name="Rectangle 832" width="300" height="30" rx="15" transform="matrix(1, -0.017, 0.017, 1, 17186.074, 2984.612)"/>
-    <rect id="Rectangle_833" data-name="Rectangle 833" width="300" height="30" rx="15" transform="translate(18304.984 3797.969) rotate(135)"/>
-    <rect id="Rectangle_838" data-name="Rectangle 838" width="300" height="30" rx="15" transform="matrix(0.998, 0.07, -0.07, 0.998, 18097.723, 2180.801)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="11135" height="6334.269" viewBox="0 0 11135 6334.269">
+  <g id="Group_174" data-name="Group 174" transform="translate(12378 -9193)">
+    <rect id="Rectangle_60" data-name="Rectangle 60" width="11135" height="6334" transform="translate(-12378 9193)" fill="none"/>
+    <path id="Path_352" data-name="Path 352" d="M0,200Z" transform="translate(-6044 15007)"/>
+    <rect id="Rectangle_822" data-name="Rectangle 822" width="300" height="30" rx="15" transform="translate(-1467.254 14375.303) rotate(-138)" fill="#fef000"/>
+    <rect id="Rectangle_828" data-name="Rectangle 828" width="300" height="30" rx="15" transform="translate(-1652.18 15326.529) rotate(138)" fill="#fef000"/>
+    <rect id="Rectangle_829" data-name="Rectangle 829" width="300" height="30" rx="15" transform="translate(-1263.254 14879.269) rotate(-138)"/>
+    <rect id="Rectangle_765" data-name="Rectangle 765" width="300" height="30" rx="15" transform="translate(-3122.43 14026.061) rotate(51)" fill="#fef000"/>
+    <rect id="Rectangle_766" data-name="Rectangle 766" width="300" height="30" rx="15" transform="translate(-4789.779 15130.487) rotate(130)" fill="#fef000"/>
+    <rect id="Rectangle_767" data-name="Rectangle 767" width="300" height="30" rx="15" transform="matrix(0.017, -1, 1, 0.017, -5921.305, 15453.469)" fill="#fef000"/>
+    <rect id="Rectangle_768" data-name="Rectangle 768" width="300" height="30" rx="15" transform="matrix(0.985, 0.174, -0.174, 0.985, -5300.805, 14277.934)"/>
+    <rect id="Rectangle_769" data-name="Rectangle 769" width="300" height="30" rx="15" transform="translate(-4825.743 13255.15) rotate(16)" fill="#fef000"/>
+    <rect id="Rectangle_771" data-name="Rectangle 771" width="300" height="30" rx="15" transform="translate(-3003.625 15124.556) rotate(-23)"/>
+    <rect id="Rectangle_772" data-name="Rectangle 772" width="300" height="30" rx="15" transform="translate(-2336.52 13854.698) rotate(97)" fill="#fef000"/>
+    <rect id="Rectangle_773" data-name="Rectangle 773" width="300" height="30" rx="15" transform="translate(-3908.289 15360.417) rotate(-152)" fill="#fef000"/>
+    <rect id="Rectangle_777" data-name="Rectangle 777" width="300" height="30" rx="15" transform="translate(-3803.484 13001.944) rotate(65)"/>
+    <rect id="Rectangle_781" data-name="Rectangle 781" width="300" height="30" rx="15" transform="translate(-3894.276 14029.524) rotate(159)"/>
+    <rect id="Rectangle_782" data-name="Rectangle 782" width="300" height="30" rx="15" transform="translate(-3381.305 14743.097) rotate(-169)" fill="#fef000"/>
+    <rect id="Rectangle_785" data-name="Rectangle 785" width="300" height="30" rx="15" transform="matrix(-0.602, 0.799, -0.799, -0.602, -2655.436, 13178.438)" fill="#fef000"/>
+    <rect id="Rectangle_791" data-name="Rectangle 791" width="300" height="30" rx="15" transform="translate(-1976.508 12743.345) rotate(-80)"/>
+    <rect id="Rectangle_821" data-name="Rectangle 821" width="300" height="30" rx="15" transform="translate(-3060.254 12670.817) rotate(-138)" fill="#fef000"/>
+    <rect id="Rectangle_825" data-name="Rectangle 825" width="300" height="30" rx="15" transform="translate(-1656.254 13589.269) rotate(-138)"/>
+    <rect id="Rectangle_830" data-name="Rectangle 830" width="300" height="30" rx="15" transform="translate(-2010.307 14854.098) rotate(-169)" fill="#fef000"/>
   </g>
 </svg>

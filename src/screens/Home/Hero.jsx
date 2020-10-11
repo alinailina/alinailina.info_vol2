@@ -18,8 +18,8 @@ const Hero = () => {
             high standards for usability and scale.
           </p>
           <div>
-            <Link>Read full story</Link>
-            <Link>Hire me</Link>
+            <Link to='about'>Read full story</Link>
+            <a href='mailto:alinailina.random@gmail.com?subject=Hire Alina'>Hire me</a>
           </div>
         </div>
         <div>

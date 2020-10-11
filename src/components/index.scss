@@ -47,7 +47,7 @@ nav {
       }
       text-decoration: none;
       &:hover {
-        color: $pink;
+        color: $yellow;
       }
     }
   }
@@ -275,7 +275,7 @@ footer {
       }
 
       > div:nth-of-type(2) {
-        width: 60%;
+        width: 80%;
         padding: 50px 0;
         @include desktop {
           padding: 4vw 0;
@@ -292,7 +292,7 @@ footer {
           max-width: 25em;
         }
         > div:nth-of-type(2) {
-          width: 40%;
+          width: 60%;
         }
       }
     }
@@ -305,8 +305,9 @@ footer {
     margin: 25px 0;
 
     @include phone {
-      margin: 10px 0;
+      margin: 0;
     }
+
     @include desktop {
       margin: 2vw 0;
     }
